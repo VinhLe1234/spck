@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập vào tài khoản</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>Đăng nhập</h1>
+            <div class="textbox">
+                <h4>Tên tài khoản</h4>
+                <input type="text" id="Username" placeholder="Nhập tên tài khoản">
+            </div>
+            <div class="textbox">
+                <h4>Mật khẩu</h4>
+                <input type="password" id="myInput" placeholder="Nhập mật khẩu">
+                <input type="checkbox" onclick="myFunction()">Show Password
+            </div>
+            <div class="textbox">
+                <a href="index.html" class="login">Đăng nhập</a> 
+                <div class="flex">
+                <p class="alert" >(*)Chưa có tài khoản?</p>
+                <a href="Register.html">Đăng ký</a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<script>
+    function myFunction() {
+  var x = document.getElementById("myInput");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+</script>

@@ -1,0 +1,116 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar {
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    overflow: hidden;
+    background: white;
+    border-bottom: 2px solid lightgrey;
+}
+
+.nav-list {
+    margin: 0;
+    margin-left: 20px;
+    display: flex;
+    height: 100%;
+    list-style: none;
+    justify-content: center;
+    margin-top: 13px;
+    position: relative;
+    gap: 40px;
+}
+
+.nav-item a {
+    color: black;
+    text-decoration: none;
+    margin-right: 25px;
+    padding: 15px;
+    font-weight: bolder;
+    align-items: center;
+    font-size: 18px;
+    align-items: center;
+    margin-left: auto;
+}
+
+a:hover {
+    color: blue;
+}
+
+.resize {
+    width: 568px;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-box {
+    font-size: larger;
+    width: 38%;
+    margin: auto;
+    margin-top: 65px;
+}
+
+.header {
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 100px;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+    width: 50%;
+}
+
+#logo-img {
+    top: 0;
+    margin-top: 0;
+    float: left;
+}
+
+.nav-list img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.first-letter {
+    margin: auto;
+    width: 37%;
+    font-size: larger;
+    margin-top: 35px;
+    font-family: "PoppinsZ", sans-serif;
+}
+
+#login a:hover {
+    background-color: darkblue
+}
+
+a  {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info {
+    text-align: center;
+    font-size: 21px;
+    background: rgb(80, 150, 255);
+}
+
+.brands-icon {
+    font-size: 25px;
+}
+
